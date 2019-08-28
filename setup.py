@@ -4,13 +4,13 @@ import glob
 from setuptools import setup, find_packages
 
 setup(
-    name="domovoi",
+    name="domovoi-all",
     version="2.0.2",
-    url='https://github.com/kislyuk/domovoi',
+    url='https://github.com/alkuzad/domovoi',
     license='Apache Software License',
-    author='Andrey Kislyuk',
-    author_email='kislyuk@gmail.com',
-    description='AWS Lambda event handler manager',
+    author='Dawid Gosławski',
+    author_email='dawid@dawidgoslawski.pl',
+    description='AWS Lambda event handler manager - for all systems',
     long_description=open('README.rst').read(),
     install_requires=[
         'boto3 >= 1.7.19, < 2',
